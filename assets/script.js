@@ -65,10 +65,8 @@ function showImage(currentIndex){
 
 	dots.forEach((dot, index) => {
 		if (currentIndex === index) {
-			//image.style.display = 'block';
 			dot.classList.add('dot_selected');
 		} else {
-			//image.style.display = 'none';
 			dot.classList.remove('dot_selected');
 		}
 	});
